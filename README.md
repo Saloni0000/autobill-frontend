@@ -122,3 +122,16 @@ Contributions are welcome!
 ## 📝 License
 
 This project is licensed under the MIT License.
+
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/krrishcoder07" target="_blank">krrishcoder07</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/krrishcoder07/autobill-frontend" target="_blank">
+    <img src="https://img.shields.io/badge/View%20on-GitHub-24292e?logo=github" alt="View on GitHub" />
+  </a>
+</p>
