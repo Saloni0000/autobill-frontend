@@ -127,7 +127,7 @@ This project is licensed under the MIT License.
 ---
 
 <p align="center">
-  Made with ❤️  <a href="https://github.com/krrishcoder07" target="_blank"></a>
+  Made with ❤️ in DUCS<a href="https://github.com/krrishcoder07" target="_blank"></a>
 </p>
 
 <p align="center">
