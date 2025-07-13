@@ -1,3 +1,4 @@
+
 # 🌐 AutoBill Frontend
 
 This is the frontend application for the **AutoBill** system, built with **React** and **Vite**. It serves as the user interface for interacting with the backend APIs to perform automated billing tasks, such as uploading receipts and viewing extracted invoice data.
@@ -6,7 +7,7 @@ This is the frontend application for the **AutoBill** system, built with **React
 
 You can access the live version of the app here:
 
-🔗 **[AutoBill Frontend Live App](https://autobill-frontend-orcin.vercel.app/)**
+🔗 **[AutoBill Frontend Live App](https://autobill-frontend07.onrender.com/)**
 
 Make sure the backend API is up and accessible for full functionality.
 
@@ -16,11 +17,16 @@ Make sure the backend API is up and accessible for full functionality.
 autobill-frontend/
 ├── public/
 ├── src/
+│   ├── assets/
 │   ├── components/
-│   ├── pages/
+│   ├── data/
+│   ├── styles/
 │   ├── App.jsx
-│   └── main.jsx
+│   ├── index.jsx
+│   ├── main.jsx
+│   └── SocketConnection.jsx
 ├── .env
+├── .gitignore
 ├── index.html
 ├── package.json
 ├── vite.config.js
@@ -31,7 +37,7 @@ autobill-frontend/
 
 - ⚡️ Blazing-fast development with Vite  
 - ⚛️ Built with React  
-- 💅 Styled using modern CSS (Tailwind or CSS Modules)  
+- 💅 Styled using modern CSS (CSS Modules / plain CSS)  
 - 📦 Axios for API communication  
 - 🔁 Modular and reusable components  
 
@@ -55,7 +61,7 @@ npm install
 Create a `.env` file with the following (example):
 
 ```
-VITE_API_URL=http://localhost:8000
+VITE_API_URL=https://krrishcoder07-autofill-backend.hf.space
 ```
 
 ### 4. Run the development server
@@ -72,6 +78,8 @@ npm run dev
 npm run build
 ```
 
+> Output will be in the `dist/` folder (used as the **publish directory** on Render)
+
 ## 🐳 Docker (Optional)
 
 ### Build and run with Docker:
@@ -81,7 +89,7 @@ docker build -t autobill-frontend .
 docker run -d -p 5173:80 autobill-frontend
 ```
 
-> Requires a Dockerfile and web server like nginx or serve.
+> Requires a Dockerfile and static server (e.g., Nginx or `serve`)
 
 ## 🔗 Connect to Backend
 
@@ -93,7 +101,7 @@ Ensure your backend API is running and the `VITE_API_URL` is correctly set in yo
 - **Vite** – Frontend tooling  
 - **Axios** – API calls  
 - **JavaScript (ES6+)**  
-- **Tailwind CSS** or CSS Modules  
+- **CSS Modules / Vanilla CSS**  
 
 ## 📌 Future Enhancements
 
@@ -105,11 +113,11 @@ Ensure your backend API is running and the `VITE_API_URL` is correctly set in yo
 
 Contributions are welcome!
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a pull request
+1. Fork the repository  
+2. Create a new branch (`git checkout -b feature/your-feature`)  
+3. Commit your changes (`git commit -m 'Add feature'`)  
+4. Push to the branch (`git push origin feature/your-feature`)  
+5. Open a pull request  
 
 ## 📝 License
 
